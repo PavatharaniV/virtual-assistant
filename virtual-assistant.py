@@ -47,4 +47,6 @@ def assistant():
         talk(info)
     else:
         talk('Please repeat')
-assistant()
+
+while True:
+    assistant()
