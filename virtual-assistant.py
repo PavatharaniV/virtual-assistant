@@ -45,4 +45,6 @@ def assistant():
         res = command.replace('who is','')
         info = wi.summary(res,1)
         talk(info)
+    else:
+        talk('Please repeat')
 assistant()
